@@ -16,6 +16,5 @@ public class Bill {
   private Date paidOn;
 
   // e.g, type=X, bill name = WiFi bill, breakup = [{serverUses:100},{discount:20},...]
-  @Column(columnDefinition = "jsonb")
   private String context;
 }
