@@ -50,6 +50,7 @@ public class PaymentServiceImpl implements PaymentService {
     billPayment.setPaymentMethod(paymentMethod);
     billPayment.setTransactionId(randomUniqueIdGenerator.generate(userId));
     billPayment.setTransactionStatus(TransactionStatus.COMPLETED);
+    billPayment.setRewarded(false);
     billPaymentRepository.save(billPayment);
     bill.setPaidOn(today);
 
