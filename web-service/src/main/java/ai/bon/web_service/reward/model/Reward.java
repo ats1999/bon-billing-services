@@ -1,7 +1,7 @@
 package ai.bon.web_service.reward.model;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Embedded;
+import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import java.util.Date;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.Data;
 @Entity
 @Data
 public class Reward {
-  @Embedded private RewardKey key;
+  @EmbeddedId private RewardKey key;
 
   @Column(nullable = false)
   private String description;
