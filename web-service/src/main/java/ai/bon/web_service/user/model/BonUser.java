@@ -1,4 +1,4 @@
-package ai.bon.web_service.user;
+package ai.bon.web_service.user.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

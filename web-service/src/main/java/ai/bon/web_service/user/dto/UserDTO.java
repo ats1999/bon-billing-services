@@ -1,6 +1,6 @@
 package ai.bon.web_service.user.dto;
 
-import ai.bon.web_service.user.BonUser;
+import ai.bon.web_service.user.model.BonUser;
 import lombok.Builder;
 import lombok.Data;
 

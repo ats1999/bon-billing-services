@@ -1,7 +1,10 @@
-package ai.bon.web_service.user;
+package ai.bon.web_service.user.controller;
 
 import ai.bon.web_service.user.dto.UserDTO;
 import java.util.List;
+
+import ai.bon.web_service.user.model.BonUser;
+import ai.bon.web_service.user.repository.UserRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

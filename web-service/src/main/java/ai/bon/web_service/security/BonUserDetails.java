@@ -1,6 +1,6 @@
 package ai.bon.web_service.security;
 
-import ai.bon.web_service.user.BonUser;
+import ai.bon.web_service.user.model.BonUser;
 
 import java.util.Collection;
 import java.util.Collections;

@@ -1,7 +1,7 @@
 package ai.bon.web_service.security;
 
-import ai.bon.web_service.user.BonUser;
-import ai.bon.web_service.user.UserRepository;
+import ai.bon.web_service.user.model.BonUser;
+import ai.bon.web_service.user.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
