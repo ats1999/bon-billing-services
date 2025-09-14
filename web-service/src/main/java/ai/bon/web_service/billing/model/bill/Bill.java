@@ -15,6 +15,6 @@ public class Bill {
   private Date dueDate;
   private Date paidOn;
 
-  // e.g, type=X, bill name = WiFi bill, breakup = [{serverUses:100},{discount:20},...]
+  // e.g, type=EGIFT, bill name = WiFi bill, breakup = [{serverUses:100},{discount:20},...]
   private String context;
 }

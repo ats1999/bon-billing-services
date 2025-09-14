@@ -17,6 +17,8 @@ public class Reward {
   @Column(nullable = false)
   private Date issuedAt;
 
+  private Date expiryDate;
+
   @Column(nullable = false)
   private RewardStatus status;
 
