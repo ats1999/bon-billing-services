@@ -19,7 +19,6 @@ public class RewardScheduler {
     int processed;
     do {
       processed = rewardPaymentPageProcessor.process(page, size);
-      System.out.println("processed: " + processed);
       page++;
     } while (processed == size);
   }
